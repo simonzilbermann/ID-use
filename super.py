@@ -9,8 +9,8 @@ from selenium.webdriver.chrome.service import Service
 number_offre=0
 
 # Configurations
-TELEGRAM_BOT_TOKEN = "8076057702:AAHZIWauDxm5NP9Aq9ryHM-tyzCfmLZqja0"
-TELEGRAM_CHAT_ID = "-4693251247"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
